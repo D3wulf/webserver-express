@@ -12,6 +12,8 @@ http.createServer((req, res) => {
         }
         res.write(JSON.stringify(salida));
         res.sendDate;
+
+        //para decirle a node que ya se terminaron las respuestas
         res.end();
 
     })
